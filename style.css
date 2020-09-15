@@ -1,0 +1,381 @@
+/*
+========================================
+Theme Name: Cuda
+Desinger: Abdul Hadi
+GitHub: https://github.com/abdulhadicse
+========================================
+*/
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Titillium Web', sans-serif;
+}
+header{
+	background-color: #87509C;
+	overflow: hidden;
+	width: 100%;
+
+}
+.headersection{
+	overflow: hidden;
+	margin-top: 50px;
+}
+.container{
+	width: 80%;
+	margin: 0px auto;
+}
+
+.logo{
+	width: 20%;
+	float: left;
+
+}
+
+.menu{
+	width: 80%;
+	float: left;
+
+}
+
+nav ul{
+	list-style: none;
+	text-align: right;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	transition: .3s;
+	display: block;
+}
+
+nav ul li a:hover{
+	background-color: #643A79;
+
+}
+
+.textsection,.portsection,.sendsection{
+	text-align: center;
+	margin-top: 130px;
+	margin-bottom: 150px;
+}
+
+.textsection h2{
+	width: 70%;
+	margin: 0px auto;
+	margin-bottom: 80px;
+	color: #fff;
+	font-size: 42px;
+
+}
+
+.textsection a,.portsection a,.sendsection a{
+	
+	padding: 25px 80px;
+	text-decoration: none;
+	background: #EB7D4B;
+	color: #fff;
+	font-weight: 600;
+}
+
+.service{
+	background-color: #17C2A4;
+	overflow: hidden;
+	width: 100%;
+}
+.servicetext h2,.teamtext h2,.skilltext h2,.porttext h2,.abouttext h2,.context h2{
+	text-align: center;
+	color: #fff;
+	margin-top: 120px;
+	font-size: 40px;
+	position: relative;
+}
+
+.servicetext h2::before,.teamtext h2::before,.skilltext h2::before ,.porttext h2::before,.abouttext h2::before,.context h2::before{
+	position: absolute;
+	content: '';
+	width: 6%;
+	height: 5px;
+	left: 585px;
+	top: 60px;
+	background-color: #14A58C;
+}
+
+.servicetext p,.teamtext p,.skilltext p, .porttext p,.abouttext p,.context p{
+	width: 50%;
+	text-align: center;
+	margin: 0px auto;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 80px;
+}
+.servlogo, .tmlogo,.sklogo{
+	width: 23%;
+	float: left;
+	margin-left: 24px;
+	text-align: center;
+	margin-bottom: 130px;
+}
+
+.servlogo h2{
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.servlogo p{
+		color: #fff;
+		width: 60%;
+		margin: 0px auto;
+		text-align: center;
+}
+
+.team{
+	background-color: #E7F1F8;
+	overflow: hidden;
+	width: 100%;
+}
+
+.teamtext p,.teamtext h2{
+	color: black;
+}
+.teamtext h2::before{
+	background: #C8D9E5;
+}
+
+.tmlogo h3{
+	width: 200px;
+	height: 200px;
+	background-color: #878787;
+	border-radius: 50%;
+	margin: 0px auto;
+}
+.tmlogo h5{
+	color: #55C2E9;
+}
+
+.iconlogo i{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #BDD1DF;
+	padding: 10px;
+	color: #fff;
+	margin-left: 6px;
+}
+
+.skill{
+	background-color: #FFFFFF;
+	overflow: hidden;
+	width: 100%;
+}
+.skilltext h2, .skilltext p{
+	color: #697184;
+}
+
+.skilltext h2::before{
+	background: #C8D9E5;
+}
+
+.Portfolio{
+	background-color: #FFDD99;
+	overflow: hidden;
+	width: 100%;
+}
+
+.portlogo{
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+.porttext p, .porttext h2{
+	color: #000;
+}
+.porttext p{
+	margin-bottom: 15px;
+}
+
+.porttext h2::before{
+	background-color: #E5C37F;
+}
+
+.portsection a{
+	background-color: #17C2A4;
+}
+
+.portmenu{
+	text-align: center ;
+}
+
+.portmenu {
+	width: 100%;
+	
+}
+.portmenu nav ul{
+	
+	text-align: center;
+	margin-bottom: 60px;
+	
+}
+
+.portmenu nav ul li a{
+	background-color: #EBC985;
+	padding: 6px 20px;
+	color: black;
+	border-radius: 5px;
+}
+
+.aboutus{
+	background-color: #D74680;
+	overflow: hidden;
+	width: 100%;
+}
+
+.abouttext h2::before{
+	background: #B73C6D;
+}
+
+.alogo{
+	width: 100px;
+	height: 100px;
+	background-color: #878787;
+	border-radius: 50%;	
+	float: left;
+	margin-right: 30px;
+}
+
+.aboutlogo{
+	width: 48%;
+	float: left;
+
+}
+
+.alogotxt{
+	width: 100%;
+	text-align: left;
+	color: #fff;
+
+}
+
+
+.alogotxt h6{
+	margin-left: 130px;
+	color: #FFDD99;
+}
+
+.ffff{
+	margin-bottom: 130px;
+}
+
+.contact{
+	background-color: #3C5499;
+	overflow: hidden;
+	width: 100%;
+}
+
+.context h2::before{
+	background-color: #273A71;
+}
+
+.context p{
+	width: 70%;
+}
+
+.first{
+	width: 48%;
+	float: left;
+	position: relative;
+	margin-right: 50px;
+	margin-bottom: 30px;
+}
+
+.second{
+	width: 48%;
+	float: left;
+	position: relative;
+	margin-bottom: 30px;
+
+}
+
+.first input{
+	width: 100%;
+	background-color: #253B73;
+	border-radius: 5px;
+	padding: 10px 20px;
+	border: none;
+	
+}
+
+.first label{
+	position: absolute;
+	color: #fff;
+	top: 4px;
+	left: 10px;
+}
+
+.second input{
+	width: 100%;
+	border-radius: 5px;
+	padding: 10px 20px;
+	border: none;
+	background-color: #253B73;
+}
+
+.second label{
+	position: absolute;
+	color: #fff;
+	top: 4px;
+	left: 10px;
+}
+
+.second label span,.first label span,.message label span{
+	color: red;
+}
+
+.message textarea{
+	width: 100%;
+	background-color: #253B73;
+	border-radius: 5px;
+	padding: 10px 20px;
+	border: none;
+	
+}
+
+.message{
+	position: relative;
+}
+
+.message label{
+	position: absolute;
+	color: #fff;
+	top: 80px;
+	left: 10px;
+}
+
+.sendsection a {
+	background: #30BAE7;
+	border-bottom: 5px solid #299EC5;
+	border-radius: 5px;
+}
+
+footer{
+	background-color: #344B8E;
+	overflow: hidden;
+	width: 100%;
+}
+
+.footdiv nav ul{
+	text-align: center;
+	font-weight: bold;
+	padding: 20px 20px;
+}
